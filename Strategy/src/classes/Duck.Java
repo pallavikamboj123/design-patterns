@@ -20,4 +20,12 @@ abstract class Duck {
     public void swim() {
     System.out.println("classes.Duck Swims");
   }
+
+  public void setFlyBehaviour(FlyBehaviour flyBehaviour) {
+      this.flyBehaviour = flyBehaviour;
+  }
+
+  public void setQuackBehaviour(QuackBehaviour quackBehaviour) {
+      this.quackBehaviour = quackBehaviour;
+  }
 }
